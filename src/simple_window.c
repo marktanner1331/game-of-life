@@ -119,10 +119,10 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     g_hwnd = CreateWindowEx(
         0,                                // Extended window style (0 for default)
         "MyWindowClass",                  // Class name (must match the one registered above)
-        "Simple Window",                  // Window title bar text
+        "Game Of Life",                   // Window title bar text
         WS_OVERLAPPEDWINDOW | WS_VISIBLE, // Window style (standard overlapping window with title bar, minimize/maximize, close buttons, and initially visible)
         CW_USEDEFAULT, CW_USEDEFAULT,     // Initial X, Y position (let Windows decide)
-        defaultWidth, defaultHeight,        // Width, Height of the window
+        defaultWidth, defaultHeight,      // Width, Height of the window
         NULL,                             // Parent window handle (NULL for no parent)
         NULL,                             // Menu handle (NULL for no menu)
         hInstance,                        // Instance handle of the application
